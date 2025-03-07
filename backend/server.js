@@ -20,7 +20,7 @@ const Users = require("./routes/UserRoutes");
 app.use("/api/", Users);
 
 app.get("/test", (req, res) => {
-  res.status(200).send("This Website (laxmipanditapi) is up");
+  res.status(200).send("This Website (voicecall) is up");
   console.log("This is running on ezer");
 });
 
